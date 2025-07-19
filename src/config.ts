@@ -1,7 +1,23 @@
-import type { Site, SocialObjects } from "./types";
+export type Site = {
+  website: string;
+  author: string;
+  desc: string;
+  title: string;
+  ogImage: string;
+  lightAndDarkMode: boolean;
+  postPerPage: number;
+  scheduledPostMargin: number;
+};
+
+export type SocialObjects = {
+  name: "GitHub" | "LinkedIn" | "X" | "Mail" | "Gumroad";
+  href: string;
+  linkTitle: string;
+  active: boolean;
+}[];
 
 export const SITE: Site = {
-  website: "https://timothy-kyalo.vercel.app/",
+  website: "https://tymm-kay.vercel.app/",
   author: "Timothy Kyalo",
   desc: "Internet home of Timothy Kyalo, a Construction Manager.",
   title: "Timothy Kyalo",
@@ -25,13 +41,19 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
+    name: "GitHub",
+    href: "https://github.com/TymmKay",
+    linkTitle: `${SITE.title} on GitHub`,
+    active: true,
+  },
+  {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/timothy-kyalo-3934b4147//",
+    href: "https://www.linkedin.com/in/timothy-kyalo-3934b4147/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
-    name: "Email",
+    name: "Mail",
     href: "mailto:Timothykyalo47@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
@@ -39,13 +61,13 @@ export const SOCIALS: SocialObjects = [
   {
     name: "X",
     href: "https://x.com/ProjMgrTim?t=AWg4DuVm3YXOM0Tt4dfD-w&s=09",
-    linkTitle: `${SITE.title} on X (formerly Twitter)`,
+    linkTitle: `${SITE.title} on X`,
     active: true,
   },
   {
     name: "Gumroad",
     href: "https://timokyaloprojects.gumroad.com",
     linkTitle: `${SITE.title} on Gumroad`,
-    active: true,
+    active: false,
   },
 ];

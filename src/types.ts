@@ -1,20 +1,18 @@
-import type socialIcons from "@assets/socialIcons";
-
 export type Site = {
   website: string;
-  githubRepoName?: string;
   author: string;
   desc: string;
   title: string;
-  ogImage?: string;
+  ogImage: string;
   lightAndDarkMode: boolean;
   postPerPage: number;
   scheduledPostMargin: number;
 };
 
 export type SocialObjects = {
-  name: keyof typeof socialIcons;
+  name: "GitHub" | "LinkedIn" | "X" | "Mail" | "Gumroad";
   href: string;
-  active: boolean;
   linkTitle: string;
+  active: boolean;
+  icon: string;
 }[];

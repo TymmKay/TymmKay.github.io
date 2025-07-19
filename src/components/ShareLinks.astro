@@ -6,29 +6,33 @@ const URL = Astro.url;
 
 const shareLinks = [
   {
-    name: "X",
+    name: "X", 
     href: "https://twitter.com/intent/tweet?url=",
     linkTitle: `Tweet this post`,
+    icon: socialIcons.X, 
   },
   {
-    name: "Email",
+    name: "Mail",
     href: "mailto:?subject=See%20this%20post&body=",
     linkTitle: `Share this post via email`,
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.748L20 9.044V18H4z"></path></svg>`,
   },
 ] as const;
 ---
 
-<div class={`social-icons`}>
+<div class="social-share-wrapper">
   <span class="italic">Share this post on:</span>
-  <div class="text-center">
+  <div class="share-buttons-container">
     {
       shareLinks.map(social => (
         <LinkButton
-          href={`${social.href + URL}`}
-          className="link-button"
+          href={`${social.href}${URL}`}
+          className="share-link-button"
           title={social.linkTitle}
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <Fragment set:html={socialIcons[social.name]} />
+          <Fragment set:html={social.icon} />
           <span class="sr-only">{social.linkTitle}</span>
         </LinkButton>
       ))
@@ -37,10 +41,13 @@ const shareLinks = [
 </div>
 
 <style>
-  .social-icons {
+  .social-share-wrapper {
     @apply flex flex-col flex-wrap items-center justify-center gap-1 sm:items-start;
   }
-  .link-button {
+  .share-buttons-container {
+    @apply text-center;
+  }
+  .share-link-button {
     @apply scale-90 p-2 hover:rotate-6 sm:p-1;
   }
 </style>
