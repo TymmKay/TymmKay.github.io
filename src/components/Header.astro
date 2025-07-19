@@ -2,7 +2,7 @@
 import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
-import LogoSVG from "@assets/logo"
+import LogoImage from "@assets/logo"
 
 export interface Props {
   activeNav?: "posts" | "tags" | "about" | "search";
@@ -18,13 +18,12 @@ const { activeNav } = Astro.props;
       <a href="/" class="logo whitespace-nowrap">
         {
           LOGO_IMAGE.enable ? (
-            <img
-              src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.svg"}`}
+            <LogoImage
+              width={String(LOGO_IMAGE.width)}
+              height={String(LOGO_IMAGE.height)}
               alt={SITE.title}
-              width={LOGO_IMAGE.width}
-              height={LOGO_IMAGE.height}
+              client:load
             />
-            <LogoSVG />
           ) : (
             SITE.title
           )
@@ -194,7 +193,6 @@ const { activeNav } = Astro.props;
 
 <script>
   function toggleNav() {
-    // Toggle menu
     const menuBtn = document.querySelector(".hamburger-menu");
     const menuIcon = document.querySelector(".menu-icon");
     const menuItems = document.querySelector("#menu-items");
@@ -213,6 +211,5 @@ const { activeNav } = Astro.props;
 
   toggleNav();
 
-  // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
 </script>
