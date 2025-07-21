@@ -2,7 +2,7 @@
 title: "Comprehensive Renovation Checklist for Fit-Out Works"
 author: "Timothy Kyalo"
 pubDatetime: 2025-07-21T22:00:00Z
-slug: "renovation-checklist-for-fitout-works"
+slug: renovation-checklist-for-fitout-works
 featured: true
 draft: false
 tags:
@@ -14,6 +14,7 @@ tags:
 description: "This blog provides a complete renovation checklist tailored for fit-out projects. From planning to handover, ensure no detail is missed with this structured guide used by site supervisors and project managers."
 canonicalURL: ""
 ---
+
 
 ## Table of Contents  
 - [Introduction](#introduction)  
