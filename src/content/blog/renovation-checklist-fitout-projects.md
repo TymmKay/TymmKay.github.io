@@ -1,7 +1,7 @@
 ---
 title: "Comprehensive Renovation Checklist for Fit-Out Works"
 author: "Timothy Kyalo"
-pubDatetime: 2025-07-21T22:00:00Z
+pubDatetime: 2025-07-21T22:45:00Z
 slug: "renovation-checklist-for-fitout-works"
 featured: true
 draft: false
