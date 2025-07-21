@@ -58,3 +58,6 @@ Managing a construction site isn’t just about directing labor — it’s about
 
 ```text
 Example: When coordinating backfilling and slab casting, I use a material log sheet updated twice daily to ensure aggregates and cement are on standby before mobilizing formwork teams.
+```
+
+Grab a copy of the sample checklist [Here](https://timokyaloprojects.gumroad.com/l/jpbfsz)
