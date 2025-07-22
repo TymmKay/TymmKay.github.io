@@ -14,10 +14,6 @@ description: "This post explores key principles and practical methods for managi
 canonicalURL: ""
 ---
 
-<p align="center">
-  <img src="/images/wrteb.jpg" alt="Construction Site Coordination" style="max-width: 100%; height: auto;" />
-</p>
-
 ## Table of Contents
 - [Introduction](#introduction)  
 - [Key Responsibilities of a Site Supervisor](#key-responsibilities-of-a-site-supervisor)  
