@@ -66,7 +66,6 @@ Consistency breeds control. Here’s a simplified daily flow that I follow:
 - Cross-check deliveries against planned usage
 - Ensure cleanup and secure storage of tools/materials
 
-```text
 Tip: A printed checklist on a clipboard improves consistency and simplifies delegation when you step away.
 ---
 
