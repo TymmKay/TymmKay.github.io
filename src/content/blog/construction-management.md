@@ -62,4 +62,51 @@ Managing a construction site isn’t just about directing labor — it’s about
 
 ---
 Example: When coordinating backfilling and slab casting, I use a material log sheet updated twice daily to ensure aggregates and cement are on standby before mobilizing formwork teams.
+
+## Managing Subcontractors and Site Teams
+
+Interior and structural works often involve multiple subcontractors — each with different expectations, deliverables, and work rhythms.
+
+### Here’s how I manage them effectively:
+
+- **Kickoff Meetings:** Clarify working hours, access routes, and milestones  
+- **Permit-to-Work System:** Ensure all teams operate with formal clearance  
+- **Daily Targeting:** Issue micro-goals daily to maintain measurable momentum  
+- **Conflict Sequencing:** For example, ceiling installation only begins after duct and conduit rough-ins  
+- **Joint Inspections:** Before covering up services or closing finishes  
+
+> Supervisors who respect each subcontractor’s needs and constraints will get the best work out of them.
+
 ---
+
+## Monitoring Progress and Ensuring Quality
+
+Quality assurance isn't something you do at handover — it starts on Day One. Here's how I approach quality on site:
+
+- **Progress Photos:** Taken daily and timestamped to track visible milestones  
+- **Marked-Up Drawings:** Used on site for live instructions and issue tracking  
+- **Pre-Handover Walks:** Schedule with client before each trade closes their works  
+- **Checklists:** Use of printed QA/QC and safety checklists  
+- **Snag Management:** Maintain a running snag list with status and responsible party  
+
+---
+
+## Case Study: NCBA Tatu City Interior Fit-Out
+
+During the NCBA Tatu City fit-out, we had less than 90 days to fully fit the space with MEP, partitions, ceilings, and finishes. It was a fast-paced, multi-trade coordination challenge.
+
+### My role included:
+- Planning daily site sequencing  
+- Monitoring ducting, electrical first-fix, and ceiling closures  
+- Running client walkthroughs at each milestone  
+- Issuing snag sheets and managing punch lists  
+
+The project was completed without major overruns, thanks to daily supervision, planning tools, and consistent site reporting.
+
+---
+
+## Conclusion
+
+Construction site coordination is both a science and an art. While tools like Microsoft Project, checklists, and daily reports matter, it’s your **presence**, **discipline**, and **decision-making** that keep things moving.
+
+Whether it’s a bank fit-out, a housing scheme, or a retail rollout — great execution starts with the site supervisor.
