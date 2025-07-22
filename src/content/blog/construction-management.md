@@ -60,5 +60,6 @@ Managing a construction site isn’t just about directing labor — it’s about
 - **Material Buffer Zones:** Creating buffer stock for critical path items (e.g., steel, cement) to avoid work stoppages.
 - **Digital Tools:** Using tools like **Microsoft Project** or **Jira** to track deliveries and site dependencies.
 
-```text
+---
 Example: When coordinating backfilling and slab casting, I use a material log sheet updated twice daily to ensure aggregates and cement are on standby before mobilizing formwork teams.
+---
