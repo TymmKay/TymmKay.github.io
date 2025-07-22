@@ -1,7 +1,7 @@
 ---
 title: "Renovation Checklist for Fitout Projects"
 description: "A detailed checklist for renovation fitout works in construction projects."
-pubDatetime: "2025-07-21T23:00:00Z"
+pubDatetime: 2025-07-21T23:00:00Z
 tags: ["renovation", "fitout", "construction"]
 featured: true
 draft: false
