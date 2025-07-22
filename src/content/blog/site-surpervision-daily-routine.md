@@ -14,6 +14,10 @@ description: "Site Supervision Daily Checklist is a vital tool for ensuring smoo
 canonicalURL: ""
 ---
 
+<p align="center">
+  <img src="/images/Checklist.jpg" alt="Site Supervision Checklist" style="max-width: 100%; height: auto;" />
+</p>
+
 ## Table of Contents
 - [Introduction](#introduction)  
 - [Key Responsibilities of a Site Supervisor](#key-responsibilities-of-a-site-supervisor)  
@@ -65,7 +69,7 @@ Consistency breeds control. Here’s a simplified daily flow that I follow:
 - Take progress photos and update daily site log
 - Cross-check deliveries against planned usage
 - Ensure cleanup and secure storage of tools/materials
-
+---
 Tip: A printed checklist on a clipboard improves consistency and simplifies delegation when you step away.
 ---
 
