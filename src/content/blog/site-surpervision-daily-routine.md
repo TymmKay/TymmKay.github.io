@@ -15,7 +15,7 @@ canonicalURL: ""
 ---
 
 <p align="center">
-  <img src="/images/Checklist.jpg" alt="Site Supervision Checklist" style="max-width: 100%; height: auto;" />
+  <img src="/images/Checklist.JPG" alt="Site Supervision Checklist" style="max-width: 100%; height: auto;" />
 </p>
 
 ## Table of Contents
