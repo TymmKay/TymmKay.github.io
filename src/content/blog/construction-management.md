@@ -14,7 +14,10 @@ description: "This post explores key principles and practical methods for managi
 canonicalURL: ""
 ---
 
-![Fitoutsequence](/images/wrteb.JPG)
+<p align="center">
+  <img src="/images/fitout.JPG" alt="Fitoutsequence" style="max-width: 100%; border-radius: 8px;" />
+</p>
+
 
 ## Table of Contents
 - [Introduction](#introduction)  
