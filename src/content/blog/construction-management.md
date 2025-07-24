@@ -14,9 +14,7 @@ description: "This post explores key principles and practical methods for managi
 canonicalURL: ""
 ---
 
-<p align="center">
-  <img src="/images/wrteb.jpg" alt="Construction Site Coordination" style="max-width: 100%; height: auto;" />
-</p>
+![Fitoutsequence](/public/images/wrteb.JPG)
 
 ## Table of Contents
 - [Introduction](#introduction)  
