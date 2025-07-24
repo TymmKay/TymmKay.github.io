@@ -14,7 +14,7 @@ description: "This post explores key principles and practical methods for managi
 canonicalURL: ""
 ---
 
-![Fitoutsequence](/public/images/wrteb.JPG)
+![Fitoutsequence](/images/wrteb.JPG)
 
 ## Table of Contents
 - [Introduction](#introduction)  
