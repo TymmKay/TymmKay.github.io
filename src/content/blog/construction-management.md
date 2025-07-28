@@ -15,7 +15,7 @@ canonicalURL: ""
 ---
 
 <p align="center">
-  <img src="/images/fitout.jpg" alt="Fitoutsequence" style="max-width: 100%; border-radius: 8px;" />
+  <img src="/images/fitout.JPG" alt="Fitoutsequence" style="max-width: 100%; border-radius: 8px;" />
 </p>
 
 
