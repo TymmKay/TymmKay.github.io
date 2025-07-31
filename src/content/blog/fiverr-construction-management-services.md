@@ -36,7 +36,9 @@ Need a clear, visual schedule for your construction phases? I will:
 👉 Ideal for: contractors, PMs, developers, students, and engineers
 
 ---
-<img src="/images/fiverr%20wbs.jpg" alt="Sample Schedule of Values" style="max-width: 100%; border-radius: 8px; margin-bottom: 1rem;" />
+<p align="center">
+  <img src="/images/fiverr%20wbs.jpg" alt="Sample Schedule of Values" style="max-width: 100%; border-radius: 8px; margin-bottom: 1rem;" />
+</p>
 
 ### 📊 Schedule of Values / Valuation Template
 If you're submitting valuations or tracking cashflow, I’ll build a professional Schedule of Values:
