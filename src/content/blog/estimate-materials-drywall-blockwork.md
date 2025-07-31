@@ -16,7 +16,7 @@ description: "Learn a step-by-step approach to accurately estimate drywall and b
 
 # How to Estimate Materials for Drywall and Blockwork Projects
 
-*By Timothy Kyalo – Construction PM | Site Supervisor | Mjengo X Member*
+*By Timothy Kyalo – Construction PM | Site Supervisor | Mjengo Hub Member*
 
 ## Introduction: Why Accurate Estimation Matters
 
