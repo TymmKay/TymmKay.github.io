@@ -84,7 +84,7 @@ Whether you're in Nairobi, Lagos, Dubai, or Toronto — you can now hire me for 
 ## Let's Work
 
 Visit my Fiverr profile to view all gigs:
-👉 [fiverr.com/your-fiverr-username](https://www.fiverr.com/your-fiverr-username)
+👉 [fiverr.com/tymmmadollar](https://www.fiverr.com/s/1qjpxEK))
 
 If you're building a project — let me support you with **clear timelines, practical documents, and execution-ready tools**.
 
