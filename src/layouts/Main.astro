@@ -1,20 +1,18 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import SpeedInsights from '@vercel/speed-insights/astro';
+import Analytics from '@vercel/analytics/astro'; // ✅ Add this line
 
 interface StringTitleProp {
   pageTitle: string;
   pageDesc?: string;
 }
-
 interface ArrayTitleProp {
   pageTitle: [string, string];
   titleTransition: string;
   pageDesc?: string;
 }
-
 export type Props = StringTitleProp | ArrayTitleProp;
-
 const { props } = Astro;
 ---
 
@@ -35,7 +33,9 @@ const { props } = Astro;
   <p>{props.pageDesc}</p>
   <slot />
 </main>
+
 <SpeedInsights />
+<Analytics /> <!-- ✅ Add this line -->
 
 <style>
   #main-content {
