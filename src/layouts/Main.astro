@@ -1,8 +1,6 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import SpeedInsights from '@vercel/speed-insights/astro';
-import Analytics from '@vercel/analytics/astro';
-
 interface StringTitleProp {
   pageTitle: string;
   pageDesc?: string;
@@ -15,11 +13,6 @@ interface ArrayTitleProp {
 export type Props = StringTitleProp | ArrayTitleProp;
 const { props } = Astro;
 ---
-
-<header class="profile-header">
-  <img src="/images/timothy.jpg" alt="Timothy Kyalo" class="profile-img" />
-  <h1 class="profile-name">Timothy Kyalo</h1>
-</header>
 
 <Breadcrumbs />
 <main id="main-content">
@@ -38,21 +31,9 @@ const { props } = Astro;
   <p>{props.pageDesc}</p>
   <slot />
 </main>
-
 <SpeedInsights />
-<Analytics />
 
 <style>
-  .profile-header {
-    @apply flex flex-col items-center justify-center mt-4 mb-6;
-  }
-  .profile-img {
-    @apply w-24 h-24 rounded-full object-cover border-2 border-gray-300;
-  }
-  .profile-name {
-    @apply mt-2 text-xl font-bold;
-  }
-
   #main-content {
     @apply mx-auto w-full max-w-3xl px-4 pb-4;
   }
