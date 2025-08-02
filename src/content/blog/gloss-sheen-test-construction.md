@@ -1,7 +1,7 @@
 ---
 title: "Gloss or Sheen Test in Construction: Why Paint Reflection Matters"
 author: "Timothy Kyalo"
-pubDatetime: 2025-08-02T10:30:00Z
+pubDatetime: 2025-08-02T17:58:00Z
 slug: gloss-sheen-test-construction
 featured: true
 draft: false
