@@ -43,21 +43,21 @@ You might use gloss testing in the following scenarios:
 ## Gloss Meter in Use
 
 <p align="center">
-  <img src="/images/gloss-meter-demo.jpg" alt="Gloss meter measuring paint sheen" style="max-width: 100%; border-radius: 8px;" />
+  <img src="/images/PAINT Test.webp" alt="Gloss meter measuring paint sheen" style="max-width: 100%; border-radius: 8px;" />
   <br/><em>A gloss meter measuring a satin-finished wall during a site inspection</em>
 </p>
 
 ## Visual Gloss Finish Differences
 
 <p align="center">
-  <img src="/images/gloss-finish-types.jpg" alt="Comparison of matte, satin, semi-gloss, and high-gloss finishes" style="max-width: 100%; border-radius: 8px;" />
+  <img src="/images/Smooth paint.webp" alt="Comparison of matte, satin, semi-gloss, and high-gloss finishes" style="max-width: 100%; border-radius: 8px;" />
   <br/><em>Comparison of gloss levels: matte (no shine) to high-gloss (mirror-like reflection)</em>
 </p>
 
 ## Light Beam Effect on Wall Texture
 
 <p align="center">
-  <img src="/images/light-beam-wall.jpg" alt="Light beam highlighting wall texture" style="max-width: 100%; border-radius: 8px;" />
+  <img src="/images/Wall Texture.webp" alt="Light beam highlighting wall texture" style="max-width: 100%; border-radius: 8px;" />
   <br/><em>Natural light beam across a wall, revealing finish characteristics under angled lighting</em>
 </p>
 
