@@ -1,5 +1,6 @@
 ---
 title: "Gloss or Sheen Test in Construction: Why Paint Reflection Matters"
+description: "Learn how gloss and sheen testing ensures the quality and consistency of paint finishes in construction projects using gloss meters."
 author: "Timothy Kyalo"
 pubDatetime: 2025-08-02T17:58:00Z
 slug: gloss-sheen-test-construction
