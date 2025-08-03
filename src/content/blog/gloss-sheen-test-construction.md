@@ -44,19 +44,19 @@ You might use gloss testing in the following scenarios:
 ## Gloss Meter in Use
 
 <p align="center">
-  <img src="../../images/gloss-meter-sheen-test.webp" alt="Gloss meter being used on wall surface" style="max-width: 100%; border-radius: 8px;" />
+  <img src="/images/gloss-meter-sheen-test.webp" alt="Gloss meter being used on wall surface" style="max-width: 100%; border-radius: 8px;" />
 </p>
 
 ## Visual Gloss Finish Differences
 
 <p align="center">
-  <img src="../../images/gloss-level-comparison-matte-to-high-gloss.webp" alt="Comparison of gloss paint finishes" style="max-width: 100%; border-radius: 8px;" />
+  <img src="/images/gloss-level-comparison-matte-to-high-gloss.webp" alt="Comparison of gloss paint finishes" style="max-width: 100%; border-radius: 8px;" />
 </p>
 
 ## Light Beam Effect on Wall Texture
 
 <p align="center">
-  <img src="../../images/light-beam-wall-texture-paint-finish.webp" alt="Wall texture illuminated by diagonal light" style="max-width: 100%; border-radius: 8px;" />
+  <img src="/images/light-beam-wall-texture-paint-finish.webp" alt="Wall texture illuminated by diagonal light" style="max-width: 100%; border-radius: 8px;" />
 </p>
 
 ## Pro Tips for Site Supervisors
