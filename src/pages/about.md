@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About Timothy Kyalo"
 ---
 
-> 📄 [View my resume](https://drive.google.com/file/d/1BKkwHCN92Y8RzJYLWMGMLqy9hSsuYp3I/view?usp=drive_link)
+> 📄 [View my resume](https://drive.google.com/file/d/1OnNYHa9wwjMAcUxJxYNmRggNZWejh7yd/view?usp=drive_link)
 
 
 # 👷 About Timothy Kyalo
