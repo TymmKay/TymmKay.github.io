@@ -5,23 +5,21 @@ title: "About Timothy Kyalo"
 
 > 📄 [View my resume](https://drive.google.com/file/d/1OnNYHa9wwjMAcUxJxYNmRggNZWejh7yd/view?usp=drive_link)
 
-
 # 👷 About Timothy Kyalo
 
-I'm **Timothy Kyalo** — a **Construction Manager** and **Remote Project Site Supervisor** with a strong passion for delivering infrastructure projects that exceed expectations for quality, safety, and efficiency. I hold a **Bachelor of Construction Management** from the **University of Nairobi**, and I bring over **2 years of hands-on experience** in both residential and commercial construction projects.
+Hi, I’m **Timothy Kyalo Syombua** — a **Construction Project Manager** and **Interior Fit-Out Specialist** based in Nairobi, Kenya.  
 
-I combine boots-on-the-ground intuition with modern tools and methodologies, whether I’m managing operations on-site or supervising remotely. My mission is simple: deliver exceptional results — on time, within scope, and under budget.
+With over **3 years of experience**, I specialize in delivering high-value residential, commercial, and office projects. My expertise covers **project scheduling, cost control, subcontractor coordination, and client relationship management** — ensuring every project is completed **on time, within budget, and to the highest standards of quality and safety**.  
 
 ---
 
 ## 🧰 Core Competencies
 
-- 🛠️ Project Planning & Execution  
-- ✅ Quality Control & Risk Mitigation  
-- 🌀 Agile Construction Workflows  
-- 👥 Team Coordination & Subcontractor Oversight  
-- 💻 Tools: Microsoft Project · Jira · Archi-CAD  
-- 📋 Compliance: Documentation & Regulatory Standards
+- 📑 Project Lifecycle Management (Design Review · Budgeting · Procurement · Handover)  
+- 🏗️ Site & Subcontractor Supervision (45+ workers, 8 subcontractors)  
+- 💻 Tools: Microsoft Project · AutoCAD · MS Office Suite  
+- 📊 Scheduling & Reporting (WBS · Gantt Charts · Client Presentations)  
+- ✅ Risk & Compliance (OSHA Certified)  
 
 ---
 
@@ -29,42 +27,27 @@ I combine boots-on-the-ground intuition with modern tools and methodologies, whe
 
 ### 🏗️ Project Site Supervisor  
 **Chartered Engineering Services Ltd** – Nairobi, Kenya  
-*June 2024 – Present* · Full-time · On-site
+*Jun 2024 – Present*  
 
-Leading the on-site construction of key commercial projects, including budgeting, subcontractor oversight, and resource coordination.
+- Delivered **Ministry of ICT PS & CS Office Fit-Out (KES 15M)** within 5% budget variance.  
+- Directed **8 subcontractors** and supervised **45+ workers** across civil, MEP, and finishing works.  
+- Oversaw entire lifecycle from design review to client handover while ensuring compliance.  
+- Presented progress reports to clients, strengthening trust and relationships.  
 
-**Responsibilities:**
-- Oversaw daily operations and task scheduling  
-- Managed subcontractors, suppliers, and site workers  
-- Tracked milestones and ensured timely progress  
-- Enforced compliance with building codes and safety regulations  
-- Identified risks and implemented proactive solutions
-
-**🏆 Highlight:**
-- Successfully delivered the **NCBA Tatu City interior fit-out** — on budget and on schedule.
+**🏆 Highlight:** Delivered the **NCBA Tatu City Office Fit-Out (KES 20M)** in 3 months — on time, within budget, and to client expectations.  
 
 ---
 
-### 👨‍🎓 Internship Trainee  
-**Compassion International** – Mwingi Central, Kitui County  
-*Jan 2024 – Apr 2024* · Internship · On-site
-
-Hands-on experience in:
-- Construction documentation & site logistics  
-- Team collaboration in agile settings  
-- Mastering Microsoft Project for scheduling
-
----
-
-### 🧱 Graduate Construction Manager  
+### 👨‍💼 Assistant Project Manager (Graduate Trainee)  
 **Fredlex Architects Ltd** – Kenya  
-*Oct 2021 – Jul 2023* · Part-time
+*Sep 2021 – Jan 2024*  
 
-Supported end-to-end project planning, particularly on:
-- Mid-scale **residential housing developments**  
-- **Greenvast Hotel** – hospitality infrastructure
+- Assisted in managing a multi-storey residential development.  
+- Created and tracked detailed project schedules, reducing delays by **25%**.  
+- Supported procurement planning and budget monitoring.  
+- Acted as primary client liaison, resolving on-site queries and presenting updates.  
 
-Responsibilities included liaising with contractors, reporting progress, and aligning project benchmarks.
+**Additional Contribution:** Delivered remote scheduling consultancy for an international mixed-use development, improving execution strategy.  
 
 ---
 
@@ -72,12 +55,22 @@ Responsibilities included liaising with contractors, reporting progress, and ali
 
 ### 🎓 University of Nairobi  
 **Bachelor of Construction Management**  
-*Sept 2017 – Sept 2021*  
-- Specialization: *Building Construction Technology*  
-- Member, **Construction and Real Estate Students Association (CRESA)**
+*2018 – 2021*  
+
+---
+
+## 📂 Project Highlights
+
+- **NCBA Tatu City Office Fit-Out (2024)** – KES 20M project, delivered in 3 months.  
+- **Ministry of ICT PS & CS Office Fit-Out (2025)** – KES 15M project, completed within 5% budget variance.  
+- **Residential Development (2023)** – Supervised 45+ workers and 8 subcontractors, reduced wastage by **20%**.  
 
 ---
 
 ## 🌐 Let’s Connect
 
-I’m always open to collaborations in **remote construction supervision**, **project planning**, or roles at the intersection of **tech**
+I believe construction is not just about buildings, but about creating spaces that serve people better.  
+If you’re looking for a project manager who blends **technical expertise with hands-on leadership**, let’s connect.  
+
+📧 timothykyalo47@gmail.com · 📱 +254 716 459 758 ·  
+
