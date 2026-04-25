@@ -20,69 +20,102 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <Layout>
   <Header />
   <main id="main-content">
-    <section id="hero">
-      <h1 class="hero-name">Timothy Kyalo 👋</h1>
-      <div class="hero-grid">
-        <div class="bio-text">
-          <p>
-            I am a <strong>Construction Project Manager</strong> specializing in <strong>Interior Fit-Outs</strong> and <strong>Virtual Project Controls</strong>. I bridge the gap between physical site execution in Nairobi and high-precision digital scheduling for global developers.
+    <section id="hero" class="py-16">
+      <div class="flex flex-col md:flex-row items-center gap-10">
+        <div class="flex-1">
+          <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+            Timothy Kyalo <span class="text-skin-accent">.</span>
+          </h1>
+          <p class="text-xl leading-relaxed mb-6 text-gray-700 dark:text-gray-300">
+            <strong>Construction Project Manager</strong> bridging the gap between physical site execution in Nairobi and high-precision virtual project controls.
           </p>
-          <p>
-            Managing infrastructure valued above <strong>KES 20M</strong>, I leverage <strong>MS Project</strong> and <strong>ArchiCAD</strong> to maintain budget variances under 5% and reduce material wastage by 20%.
+          <p class="text-lg opacity-80 mb-8">
+            Specializing in high-value fit-outs (KES 20M+) with a focus on <span class="italic text-skin-accent">systematic efficiency</span> and zero-waste coordination.
           </p>
-        </div>
-        <img 
-          src="/images/CPM%20TIMO.jpg" 
-          alt="Timothy Kyalo" 
-          class="hero-img-technical"
-        />
-      </div>
-
-      {socialCount > 0 && (
-        <div class="social-wrapper">
-          <div class="social-links">System Inquiry: </div>
           <Socials />
         </div>
-      )}
+        <div class="relative">
+          <img 
+            src="/images/CPM%20TIMO.jpg" 
+            alt="Timothy Kyalo" 
+            class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
+          />
+          <div class="absolute -bottom-4 -right-4 bg-skin-accent text-white px-6 py-2 rounded-lg font-mono text-sm font-bold shadow-lg">
+            EST. 2021
+          </div>
+        </div>
+      </div>
     </section>
 
     <Hr />
 
-    <section id="projects" class="mt-10">
-      <h2 class="section-title-eng">Major Projects & Case Studies</h2>
-      <div class="dossier-grid">
+    <section id="projects" class="py-20">
+      <div class="flex justify-between items-end mb-12">
+        <h2 class="text-3xl font-bold uppercase tracking-widest">Selected Works</h2>
+        <span class="font-mono text-xs opacity-50">04 PROJECTS // 2026</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
         
-        <div class="dossier-card card-library">
-          <div class="dossier-overlay">
-            <h3 class="dossier-h3">Aga Khan High Library Fit-Out</h3>
-            <span class="dossier-status">Status: 97% Completion Reached March 2026</span>
-            <p class="dossier-p">
-              Rescued project from 50% stagnation. Orchestrated MEP, HVAC, and joinery convergence to deliver a high-spec academic environment under rigid timelines.
-            </p>
+        <div class="group cursor-pointer">
+          <div class="overflow-hidden rounded-lg bg-gray-100 mb-4 border border-gray-200">
+            <img src="/images/ncbatatu.jpg" alt="Aga Khan Library" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" />
           </div>
+          <h3 class="text-xl font-bold mb-2 group-hover:text-skin-accent transition-colors">Aga Khan High Library Fit-Out</h3>
+          <p class="text-xs font-bold text-skin-accent uppercase mb-3">Project Rescue // 97% Completion Reached</p>
+          <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            Orchestrated a total project turnaround from 50% stagnation to delivery-ready. Managed complex HVAC and joinery convergence under rigid timelines.
+          </p>
         </div>
 
-        <div class="dossier-card card-tatu">
-          <div class="dossier-overlay">
-            <h3 class="dossier-h3">NCBA Tatu City Office</h3>
-            <p class="dossier-p">
-              Full interior fit-out in &lt;90 days. Managed the "System of Site"—coordinating precision labor output and high-spec material procurement in the Westlands/Tatu corridor.
-            </p>
+        <div class="group cursor-pointer">
+          <div class="overflow-hidden rounded-lg bg-gray-100 mb-4 border border-gray-200 flex items-center justify-center p-10">
+            <h4 class="text-4xl font-black opacity-10 font-mono italic">VIRTUAL CONTROLS</h4>
           </div>
+          <h3 class="text-xl font-bold mb-2 group-hover:text-skin-accent transition-colors">Remote Project Management</h3>
+          <p class="text-xs font-bold text-blue-500 uppercase mb-3">Fiverr // Global Markets</p>
+          <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            Cloud-based scheduling and ArchiCAD shop drawings for US and EMEA developers. Leveraging a 100% digital workflow for offshore project tracking.
+          </p>
         </div>
 
-        <div class="dossier-card card-virtual">
-          <div class="dossier-overlay">
-            <h3 class="dossier-h3">Virtual Project Controls</h3>
-            <span class="dossier-status-alt">Remote / Global Services</span>
-            <p class="dossier-p">
-              Providing remote scheduling, cost valuation, and ArchiCAD shop drawings for US-based and local developers using a 100% digital "Cloud Construction" workflow.
-            </p>
-          </div>
+        <div class="group">
+           <h3 class="text-xl font-bold mb-1 underline decoration-skin-accent underline-offset-8 decoration-2">NCBA Tatu City</h3>
+           <p class="mt-4 text-sm opacity-80">Full office fit-out in &lt;90 days. High-spec material procurement and precision labor coordination.</p>
         </div>
 
-        <div class="dossier-card card-ict">
-          <div class="dossier-overlay">
-            <h3 class="dossier-h3">Ministry of ICT Fit-Out</h3>
-            <p class="dossier-p">
-              Delivered executive offices for PS & CS. 6-week turnaround requiring
+        <div class="group">
+           <h3 class="text-xl font-bold mb-1 underline decoration-skin-accent underline-offset-8 decoration-2">Ministry of ICT</h3>
+           <p class="mt-4 text-sm opacity-80">Executive suite delivery for PS & CS. 6-week high-pressure rotation of specialized subcontractors.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-12 bg-skin-card rounded-3xl px-8 mb-20">
+       <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+          <div>
+            <h2 class="text-2xl font-bold mb-2">Technical Proficiency</h2>
+            <p class="opacity-70">The tools I use to maintain &lt;5% budget variance.</p>
+          </div>
+          <div class="flex flex-wrap gap-3 justify-center md:justify-end">
+            {["MS Project", "ArchiCAD", "AutoCAD", "Excel", "Vercel"].map(tool => (
+              <span class="px-5 py-2 border border-skin-line rounded-full font-mono text-sm bg-white dark:bg-gray-800 shadow-sm">{tool}</span>
+            ))}
+          </div>
+       </div>
+    </section>
+
+    <div class="text-center pb-20">
+      <LinkButton href="/posts" className="text-xl font-bold hover:text-skin-accent transition-colors">
+        Read the Site Logs & Checklists &rarr;
+      </LinkButton>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  #main-content { @apply max-w-6xl mx-auto px-4; }
+  h1, h2, h3 { @apply text-skin-base; }
+</style>
