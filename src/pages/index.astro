@@ -28,13 +28,141 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <img 
         src="/images/CPM%20TIMO.jpg" 
         alt="Timothy Kyalo" 
-        style="display: block; margin: 16px auto; border-radius: 50%; max-width: 200px;" 
+        style="display: block; margin: 16px auto; border-radius: 50%; max-width: 200px; border: 4px solid var(--color-accent);" 
       />
 
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
+      <p>
+        I’m <strong>Timothy Kyalo Syombua</strong>, a <strong>Construction Project Manager</strong> specializing in <strong>Interior Fit-Outs</strong> and <strong>Virtual Project Controls</strong>. I bridge the gap between physical site execution in Nairobi and high-precision digital scheduling for global clients.
+      </p>
+
+      <p>
+        With a track record in projects valued above <strong>KES 20M</strong>, I specialize in reducing material wastage by 20% and maintaining budget variances under 5% through rigorous <strong>MS Project</strong> tracking and <strong>ArchiCAD</strong> shop drawing coordination.
+      </p>
+
+      {
+        socialCount > 0 && (
+          <div class="social-wrapper">
+            <div class="social-links">Connect for Site or Virtual PM: </div>
+            <Socials />
+          </div>
+        )
+      }
+    </section>
+
+<section id="projects" class="mt-10">
+  <h2 class="text-2xl font-bold mb-6">Major Projects & Case Studies</h2>
+  <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
+    
+    <div class="rounded-xl shadow p-4 bg-white border-l-4 border-accent">
+      <h3 class="text-lg font-semibold mb-1">Aga Khan High Library Fit-Out</h3>
+      <p class="text-xs font-bold text-accent mb-2 uppercase">Status: 97% Completion Reached March 2026</p>
+      <p class="text-sm text-gray-600">
+        Took over project leadership at 50% stagnation. Orchestrated MEP, HVAC, and joinery teams to fast-track delivery to 97% within a revised high-pressure timeline.
+      </p>
+    </div>
+
+    <div class="rounded-xl shadow p-4 bg-white">
+      <h3 class="text-lg font-semibold mb-1">NCBA Tatu City Office</h3>
+      <p class="text-sm text-gray-600">
+        Full interior fit-out in &lt;90 days. Managed the "System of Site"—coordinating daily labor output and high-spec material procurement for a premium banking environment.
+      </p>
+    </div>
+
+    <div class="rounded-xl shadow p-4 bg-white">
+      <h3 class="text-lg font-semibold mb-1">Ministry of ICT Fit-Out</h3>
+      <p class="text-sm text-gray-600">
+        Delivered executive offices for PS & CS. 6-week turnaround requiring 24/7 subcontractor rotation and precise partition/lighting layout execution.
+      </p>
+    </div>
+
+    <div class="rounded-xl shadow p-4 bg-white">
+      <h3 class="text-lg font-semibold mb-1">Virtual Project Controls</h3>
+      <p class="text-sm text-gray-600">
+        Providing remote scheduling, cost valuation, and ArchiCAD shop drawings for US-based and local developers using a 100% digital workflow.
+      </p>
+    </div>
+  </div>
+</section>
+
+<Hr />
+
+<section id="tech-stack" class="py-8">
+  <h2 class="text-xl font-semibold mb-4">The Digital Toolkit</h2>
+  <div class="flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-skin-card rounded text-sm border border-skin-line">MS Project</span>
+    <span class="px-3 py-1 bg-skin-card rounded text-sm border border-skin-line">ArchiCAD</span>
+    <span class="px-3 py-1 bg-skin-card rounded text-sm border border-skin-line">AutoCAD</span>
+    <span class="px-3 py-1 bg-skin-card rounded text-sm border border-skin-line">Advanced Excel</span>
+    <span class="px-3 py-1 bg-skin-card rounded text-sm border border-skin-line">Vercel/GitHub (ISP Systems)</span>
+  </div>
+</section>
+
+    {
+      featuredPosts.length > 0 && (
+        <>
+          <section id="featured">
+            <h2>Featured Industry Insights</h2>
+            <ul>
+              {featuredPosts.map(({ data, slug }) => (
+                <Card
+                  href={`/posts/${slug}`}
+                  frontmatter={data}
+                  secHeading={false}
+                />
+              ))}
+            </ul>
+          </section>
+          {recentPosts.length > 0 && <Hr />}
+        </>
+      )
+    }
+
+    {
+      recentPosts.length > 0 && (
+        <section id="recent-posts">
+          <h2>Site Logs & Blog</h2>
+          <ul>
+            {recentPosts.map(
+              ({ data, slug }, index) =>
+                index < 4 && (
+                  <Card
+                    href={`/posts/${slug}`}
+                    frontmatter={data}
+                    secHeading={false}
+                  />
+                )
+            )}
+          </ul>
+        </section>
+      )
+    }
+
+    <div class="all-posts-btn-wrapper">
+      <LinkButton href="/posts">
+        View All Checklists & Posts
+        <svg xmlns="http://www.w3.org/2000/svg"
+          ><path
+            d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+          ></path>
+        </svg>
+      </LinkButton>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  #hero { @apply pb-6 pt-8; }
+  #hero h1 { @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl; }
+  #hero p { @apply my-4 leading-relaxed; }
+  .social-wrapper { @apply mt-4 flex flex-col sm:flex-row sm:items-center; }
+  .social-links { @apply mb-1 mr-2 whitespace-nowrap sm:mb-0 font-bold; }
+  #projects, #featured, #recent-posts { @apply pb-6 pt-12; }
+  #projects h2, #featured h2, #recent-posts h2 { @apply text-2xl font-semibold tracking-wide; }
+  .all-posts-btn-wrapper { @apply my-8 text-center; }
+  .border-accent { border-color: var(--color-accent); }
+</style>        class="rss-link"
         aria-label="rss feed"
         title="RSS Feed"
       >
