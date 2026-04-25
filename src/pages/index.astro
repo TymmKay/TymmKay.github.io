@@ -11,11 +11,9 @@ import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
 
 const posts = await getCollection("blog");
-
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
-
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
@@ -23,140 +21,68 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Timothy Kyalo 👋</h1>
-      
-      <div class="profile-container">
+      <h1 class="hero-name">Timothy Kyalo 👋</h1>
+      <div class="hero-grid">
+        <div class="bio-text">
+          <p>
+            I am a <strong>Construction Project Manager</strong> specializing in <strong>Interior Fit-Outs</strong> and <strong>Virtual Project Controls</strong>. I bridge the gap between physical site execution in Nairobi and high-precision digital scheduling for global developers.
+          </p>
+          <p>
+            Managing infrastructure valued above <strong>KES 20M</strong>, I leverage <strong>MS Project</strong> and <strong>ArchiCAD</strong> to maintain budget variances under 5% and reduce material wastage by 20%.
+          </p>
+        </div>
         <img 
           src="/images/CPM%20TIMO.jpg" 
-          alt="Timothy Kyalo Syombua - Construction Manager" 
-          class="hero-img"
+          alt="Timothy Kyalo" 
+          class="hero-img-technical"
         />
       </div>
 
-      <div class="bio-content">
-        <p>
-          I am a <strong>Construction Project Manager</strong> specializing in <strong>Interior Fit-Outs</strong> and <strong>Virtual Project Controls</strong>. I bridge the gap between physical site execution in Nairobi and high-precision digital scheduling for global developers.
-        </p>
-
-        <p>
-          With a focus on infrastructure valued above <strong>KES 20M</strong>, I leverage <strong>MS Project</strong> and <strong>ArchiCAD</strong> to maintain budget variances under 5% and reduce material wastage by 20%.
-        </p>
-      </div>
-
-      {
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Network & Inquiry: </div>
-            <Socials />
-          </div>
-        )
-      }
+      {socialCount > 0 && (
+        <div class="social-wrapper">
+          <div class="social-links">System Inquiry: </div>
+          <Socials />
+        </div>
+      )}
     </section>
 
     <Hr />
 
     <section id="projects" class="mt-10">
-      <h2 class="section-title">Major Projects & Case Studies</h2>
-      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
+      <h2 class="section-title-eng">Major Projects & Case Studies</h2>
+      <div class="dossier-grid">
         
-        <div class="project-card featured-border">
-          <h3 class="text-lg font-semibold mb-1">Aga Khan High Library Fit-Out</h3>
-          <p class="status-tag">Status: 97% Completion Reached March 2026</p>
-          <p class="text-sm text-gray-600">
-            Rescued project from 50% stagnation. Orchestrated MEP, HVAC, and joinery convergence to deliver a high-spec academic environment under rigid timelines.
-          </p>
+        <div class="dossier-card card-library">
+          <div class="dossier-overlay">
+            <h3 class="dossier-h3">Aga Khan High Library Fit-Out</h3>
+            <span class="dossier-status">Status: 97% Completion Reached March 2026</span>
+            <p class="dossier-p">
+              Rescued project from 50% stagnation. Orchestrated MEP, HVAC, and joinery convergence to deliver a high-spec academic environment under rigid timelines.
+            </p>
+          </div>
         </div>
 
-        <div class="project-card">
-          <h3 class="text-lg font-semibold mb-1">NCBA Tatu City Office</h3>
-          <p class="text-sm text-gray-600">
-            Full interior fit-out in &lt;90 days. Managed the "System of Site"—coordinating precision labor output and high-spec material procurement in the Westlands/Tatu corridor.
-          </p>
+        <div class="dossier-card card-tatu">
+          <div class="dossier-overlay">
+            <h3 class="dossier-h3">NCBA Tatu City Office</h3>
+            <p class="dossier-p">
+              Full interior fit-out in &lt;90 days. Managed the "System of Site"—coordinating precision labor output and high-spec material procurement in the Westlands/Tatu corridor.
+            </p>
+          </div>
         </div>
 
-        <div class="project-card bg-skin-card">
-          <h3 class="text-lg font-semibold mb-1">Virtual Project Controls</h3>
-          <p class="text-xs font-bold text-accent uppercase mb-2">Remote / Global Services</p>
-          <p class="text-sm text-gray-600">
-            Providing remote scheduling, cost valuation, and ArchiCAD shop drawings for US-based and local developers using a 100% digital "Cloud Construction" workflow.
-          </p>
+        <div class="dossier-card card-virtual">
+          <div class="dossier-overlay">
+            <h3 class="dossier-h3">Virtual Project Controls</h3>
+            <span class="dossier-status-alt">Remote / Global Services</span>
+            <p class="dossier-p">
+              Providing remote scheduling, cost valuation, and ArchiCAD shop drawings for US-based and local developers using a 100% digital "Cloud Construction" workflow.
+            </p>
+          </div>
         </div>
 
-        <div class="project-card">
-          <h3 class="text-lg font-semibold mb-1">Ministry of ICT Fit-Out</h3>
-          <p class="text-sm text-gray-600">
-            Delivered executive offices for PS & CS. 6-week turnaround requiring 24/7 subcontractor rotation and precise partition/lighting layout execution.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="tech-stack" class="py-8">
-      <h2 class="text-xl font-semibold mb-4">The Digital Toolkit (Infrastructure Ops)</h2>
-      <div class="stack-tags">
-        <span>MS Project</span>
-        <span>ArchiCAD</span>
-        <span>AutoCAD</span>
-        <span>Advanced Excel</span>
-        <span>Vercel/GitHub (Systems Eng)</span>
-        <span>Networking (WISP)</span>
-      </div>
-    </section>
-
-    <Hr />
-
-    {
-      featuredPosts.length > 0 && (
-        <section id="featured">
-          <h2>Technical Insights</h2>
-          <ul>
-            {featuredPosts.map(({ data, slug }) => (
-              <Card
-                href={`/posts/${slug}`}
-                frontmatter={data}
-                secHeading={false}
-              />
-            ))}
-          </ul>
-        </section>
-      )
-    }
-
-    <div class="all-posts-btn-wrapper">
-      <LinkButton href="/posts">
-        View All Site Logs & Templates
-        <svg xmlns="http://www.w3.org/2000/svg">
-          <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
-        </svg>
-      </LinkButton>
-    </div>
-  </main>
-
-  <Footer />
-</Layout>
-
-<style>
-  #hero { @apply pb-6 pt-8; }
-  #hero h1 { @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl; }
-  .profile-container { @apply flex justify-center; }
-  .hero-img { 
-    @apply my-4 h-48 w-48 rounded-full border-4 border-skin-accent object-cover shadow-lg; 
-  }
-  .bio-content p { @apply my-4 leading-relaxed text-lg; }
-  
-  .social-wrapper { @apply mt-4 flex flex-col sm:flex-row sm:items-center; }
-  .social-links { @apply mb-1 mr-2 font-bold; }
-
-  .section-title { @apply text-2xl font-bold mb-6; }
-  .project-card { @apply rounded-xl shadow p-5 bg-white border border-skin-line; }
-  .featured-border { @apply border-l-8 border-skin-accent; }
-  .status-tag { @apply text-xs font-bold text-skin-accent mb-2 uppercase tracking-tighter; }
-
-  .stack-tags { @apply flex flex-wrap gap-2; }
-  .stack-tags span { 
-    @apply px-3 py-1 bg-skin-card rounded text-xs border border-skin-line font-mono; 
-  }
-
-  #featured, #recent-posts { @apply pb-6 pt-12; }
-  .all-posts-btn-wrapper { @apply my-8 text-center; }
-</style>
+        <div class="dossier-card card-ict">
+          <div class="dossier-overlay">
+            <h3 class="dossier-h3">Ministry of ICT Fit-Out</h3>
+            <p class="dossier-p">
+              Delivered executive offices for PS & CS. 6-week turnaround requiring
